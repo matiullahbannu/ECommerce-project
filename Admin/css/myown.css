@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+.column1{
+    float: left;
+    width: 33.33%;
+    padding: 5px
+}
+.row1::after {
+content: "";
+clear: both;
+display: table;
+}
+table,th,td{
+    border: 1px solid gray;
+}
+tr:nth-child(even){
+    background-color: rgb(183, 251, 234);
+}
+
+
+
